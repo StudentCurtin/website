@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 5%;
+    left: 3%;
+    z-index: 1;
+    width: 94%;
+}
+
+nav a {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    text-shadow: 3px 3px #FF6363;
+    text-decoration: none;
+    float: left;
+}
+
+#navright {
+    float: right;
+}
+
+.section {
+    height: 100vh
+}
+
+.top {
+    background-color: #FF965A;
+}
+
+.title {
+    font-size: 10.5vw;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 10px 7px black;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+}
+
+.red {
+    color: #FF6363;
+}
+
+.blue {
+    color: #7B88FF;
+}
+
+.green {
+    color: #93FF82;
+}
+
+.pink {
+    color: #FF8CF4;
+}
+
+.subtitle {
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    left: 8%;
+    bottom: 15%;
+}
+
+.arrow-container {
+    width:100px;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+    left: 80%;
+    bottom: 5%;
+}
+
+#arrow {
+    font-size: 6.5vw; 
+    color: white;    
+    animation: arrowbounce 0.8s infinite alternate cubic-bezier(0.95, 0.05, 0.795, 0.035);        
+}
+
+.scroll {
+    color: white;
+    font-size: 2.5vw;
+    margin: 35px 0 0 25px;
+    animation: arrowbounce 0.8s infinite alternate cubic-bezier(0.95, 0.05, 0.795, 0.035);  
+}
+
+@keyframes arrowbounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.nav {
+    background-color: black;
+}
+
+.navhead {
+    font-size: 4vw;
+    color: white;
+    text-shadow: 5px 3px #FF5F5F;
+    -webkit-text-stroke: 1.5px black;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 5%;
+    top: 10.5%;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12 {
+    font-size: 2vw;
+    -webkit-text-stroke: 1.5px black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5%;
+    display: inline-block;
+}
+
+#btn1 {
+    background-color: #808CFF;
+    padding: 10vh 2vw;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+#btn2 {
+    background-color: #FF7B93;
+    padding: 10vh 2vw;
+}
+
+#btn3 {
+    background-color: #7BFFDF;
+    padding: 14vh 2.5vw 10vh;
+}
+
+#btn4 {
+    background-color: #FFB470;
+    padding: 7vh 2.1vw;
+    margin-left: 34.3%;
+}
+
+#btn5 {
+    background-color: #6EE2FC;
+    padding: 7vh 1.4vw;
+}
+
+#btn6 {
+    background-color: #B8FF97;
+    padding: 15vh 2vw 7vh;
+}
+
+#btn7 {
+    background-color: #9980FF;
+    padding: 13vh 4.5vw;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+#btn8 {
+    background-color: #FFEF62;
+    padding: 9vh 1.2vw 13vh;
+}
+
+#btn9 {
+    background-color: #F18AFA;
+    padding: 5vh 4vw 13vh;
+}
+
+#btn10 {
+    background-color: #FF9270;
+    padding: 11vh 1.2vw;
+    margin-left: 34.2%;
+}
+
+#btn11 {
+    background-color: #6EFCAF;
+    padding: 11vh 4.3vw 10.9vh;
+}
+
+#btn12 {
+    background-color: #F7FF97;
+    padding: 15vh 3vw 10.9vh;
+}
+
+.title1 {
+    background-color: #808CFF;
+    text-align: center;
+}
+
+.heading1, .heading2 {
+    display: inline-block;
+    font-size: 7vw;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 10px 7px black;
+    border: solid black 0.2vw;
+    padding: 50px 100px;
+}
+
+.heading1 {
+    color: #FF7272;
+    background-color: #C5FFBB;
+    box-shadow: -25px 25px #FFBBBB, -28px 28px black, -50px 50px #FFBBBB, -53px 53px black;
+}
+
+.explain1 {
+    background-color: #A5AEFF;
+}
+
+.subheading1, .subheading2 {
+    font-size: 3.5vw;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 5px 5px black;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.number1, .number2 {
+    font-size: 2vw;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 3px 1.5px black;
+}
+
+.para1, .para2 {
+    font-size: 1.5vw;
+    border: solid black 0.2vw;
+    padding: 30px 50px 50px 30px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.subheading1 {
+    color: #FF4B4B;
+}
+
+.para1 {
+    background-color: #C5FFBB;
+    box-shadow: 25px 25px #FFBBBB, 28px 28px black, 50px 50px #FFBBBB, 53px 53px black;
+}
+
+.example1 {
+    background-color: #DFE2FF;
+    text-align: center;
+}
+
+.exampleheading1, .exampleheading2 {
+    font-size: 7vw;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 10px 7px black;
+}
+
+.img4, .img5 {
+    width: 20vw;
+}
+
+.exampleheading1 {
+    color: #FF7272;
+}
+
+.title2 {
+    background-color: #FF7B93;
+    text-align: center;
+}
+
+.heading2 {
+    color: #7ACFFF;
+    background-color: #FEFFBB;
+    box-shadow: -25px 25px #A1C7FF, -28px 28px black, -50px 50px #A1C7FF, -53px 53px black;
+}
+
+.explain2 {
+    background-color: #FFA3B3;
+}
+
+.subheading2 {
+    color: #7ACFFF;
+}
+
+.para2 {
+    background-color: #FEFFBB;
+    box-shadow: 25px 25px #A1C7FF, 28px 28px black, 50px 50px #A1C7FF, 53px 53px black;
+}
+
+.example2 {
+    background-color: #FFC8D2;
+    text-align: center;
+}
+
+.img7, .img8 {
+    width: 45vw;
+}
+
+.exampleheading2 {
+    color: #7ACFFF;
+}
+
+.error {
+    background-color: #73ABFF;
+    text-align: center;
+}
+
+#exclamation {
+    font-size: 11vw; 
+    text-shadow: 7px 7px black;
+    -webkit-text-stroke: 2px black;
+    color: #FF6363;          
+}
+
+.errortext {
+    font-size: 7vw;
+    color: #FF6363;
+    text-shadow: 10px 7px black;
+    -webkit-text-stroke: 2px black;
+}
+
+@media only screen and (max-width: 768px) { 
+    nav {
+        top: 3%;
+        left: 3%;
+    }
+    
+    nav a {
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    
+    .title {
+        font-size: 14vw;
+        text-shadow: 10px 5px black;
+    }
+    
+    .subtitle {
+        font-size: 2.5vw;
+        color: white;
+    }
+    
+    .arrow-container {
+        left: 73%;
+        bottom: 2%;
+    }
+    
+    #arrow {
+        font-size: 7vw;      
+    }
+    
+    .scroll {
+        font-size: 3vw;
+        margin: 17px 0 0 20px; 
+    }
+    
+    .navhead {
+        font-size: 7vw;
+        top: 5%;
+    }
+    
+    #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12 {
+        font-size: 4vw;
+    }
+    
+    #btn1 {
+        background-color: #808CFF;
+        padding: 7vh 2vw;
+        margin-left: 17%;
+        margin-top: 30%;
+    }
+    
+    #btn2 {
+        background-color: #FF7B93;
+        padding: 7vh 2vw;
+    }
+    
+    #btn3 {
+        background-color: #7BFFDF;
+        padding: 10vh 3.5vw 7vh;
+        margin-left: 17%;
+    }
+    
+    #btn4 {
+        background-color: #FFB470;
+        padding: 0vh 2vw 5vh;
+        margin-left: 1%
+    }
+    
+    #btn5 {
+        background-color: #6EE2FC;
+        padding: 7vh 1.4vw;
+        margin-left: 17%;
+    }
+    
+    #btn6 {
+        background-color: #B8FF97;
+        padding: 15vh 2vw 7vh;
+    }
+    
+    #btn7 {
+        background-color: #9980FF;
+        padding: 13vh 4.5vw;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+    
+    #btn8 {
+        background-color: #FFEF62;
+        padding: 9vh 1.2vw 13vh;
+    }
+    
+    #btn9 {
+        background-color: #F18AFA;
+        padding: 5vh 4vw 13vh;
+    }
+    
+    #btn10 {
+        background-color: #FF9270;
+        padding: 11vh 1.2vw;
+        margin-left: 0%
+    }
+    
+    #btn11 {
+        background-color: #6EFCAF;
+        padding: 11vh 4.3vw 10.9vh;
+    }
+    
+    #btn12 {
+        background-color: #F7FF97;
+        padding: 15vh 3vw 10.9vh;
+    }
+    
+    .heading1, .heading2 {
+        font-size: 9vw;
+        text-shadow: 3px 3px black;
+        border: solid black 0.5vw;
+    }
+    
+    .subheading1, .subheading2 {
+        font-size: 7vw;
+        top: 8%;
+    }
+    
+    .number1, .number2 {
+        font-size: 5vw;
+    }
+    
+    .para1, .para2 {
+        font-size: 3vw;
+        border: solid black 0.2vw;
+        padding: 30px 10px 50px 30px;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+    
+    .exampleheading1, .exampleheading2 {
+        font-size: 10vw;
+    }
+
+    #exclamation {
+        font-size: 20vw;         
+    }
+    
+    .errortext {
+        font-size: 10vw;
+    }
+}
